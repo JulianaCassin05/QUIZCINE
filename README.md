@@ -1,2 +1,2 @@
-# FARQUAAD
+# QuizCine
 Projeto Desenvolvimento Web
