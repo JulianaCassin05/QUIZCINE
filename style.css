@@ -1,0 +1,99 @@
+html, body{
+    overflow-y: hidden;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    background-color: #3fe0d0;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-top: none;
+}
+
+p {
+    color: #354d4f;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    font-size: 25px;
+}
+
+nav ul li {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tituloPagina {
+    background-color: #7effd4;
+    color: #126e51;
+    text-align: center;
+    padding: 40px;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.legenda{
+    background-color: #5fefd3;
+    color: #078e82;
+    font-size: 18px;
+    padding: 35px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 65px;
+}
+
+/* .botao{
+    background-color: #5e9ea0;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    height: 44px;
+    margin: 30px;
+    padding: 0 25px;
+    text-align: center;
+    transition: all 0.2s;
+} */
+
+
+#login, #cadastro{
+    background-color: #5e9ea0;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    height: 44px;
+    margin: 30px;
+    padding: 0 25px;
+    text-align: center;
+    transition: all 0.2s;
+}
