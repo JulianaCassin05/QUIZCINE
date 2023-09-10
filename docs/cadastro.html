@@ -8,25 +8,29 @@
     <h1>Cadastro</h1>
     <div class="entrar">
         <div class="form">
-          <form class="formLogin">
-
+          <form action="https://webhook.site/7460537e-2798-4828-9cda-3e24e9300ab1" method="post">
             <label for="pNome">Nome</label>
             <input type="text" placeholder="Nome"/><br><br>
 
             <label for="sNome">Sobrenome</label>
-            <input type="text" placeholder="Sobrenome"/><br><br>
+            <input type="text" id="sNome" name="sNome" placeholder="Sobrenome"/><br><br>
 
             <label for="email">Email</label>
-            <input type="text" placeholder="Email"/><br><br>
+            <input type="text" id="email" name="email" placeholder="Email"/><br><br>
 
             <label for="senha">Senha</label>
-            <input type="password" placeholder="Senha"/><br><br>
+            <input type="password" id="senha" name="senha" placeholder="Senha"/><br><br>
 
             <label for="confsenha">Confirmar senha</label>
-            <input type="password" placeholder="Repitir senha"/>
-            <button>Entrar</button>
-            <p>Ja tem uma conta? <a href="login.html">Faça login</a></p>
+            <input type="password" id="confsenha" name="confsenha" placeholder="Repitir senha"/><br><br>
+
+            <label for="nasc">Data de nascimento:</label>
+            <input type="date" id="nasc" name="nasc">
+
+     
+            <input type="submit" value="Cadastrar">
           </form>
+          <p>Ja tem uma conta? <a href="login.html">Faça login</a></p>
         </div>
       </div>
 </body>
