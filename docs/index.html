@@ -3,22 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>QuizCine</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: white !important;
+        }
+        .tituloPagina {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .titulo h1 {
+            color: #343a40;
+        }
+        .legenda p {
+            color: #343a40;
+        }
+        .botoes .botao {
+            background-color: #343a40;
+            color: white;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <p>QuizCine</p>
-        <nav>
-            <ul>
-                <!-- <li><a href="arquivos/menu.html">Menu</a></li> -->
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="criadores.html">Criadores</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand fs-1" href="#">QuizCine</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="criadores.html">Criadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
             </ul>
-        </nav>
-    </header>
-    <div class="tituloPagina">
+        </div>
+    </nav>
+
+    <div class="container tituloPagina">
         <div class="titulo">
             <h1>Faça o nosso Quiz!</h1>
         </div>
@@ -26,9 +61,11 @@
             <p>Deixe suas emoções guiarem sua escolha de filme hoje! Nosso quiz diário te conecta com o filme perfeito para seu estado de espírito. 🎥😊😢 #EscolhaEmocional</p>
         </div>
         <div class="botoes">
-            <a href="cadastro.html"><button id="cadastro" class="botao" role="button">Cadastro</button></a>
-            <a href="login.html"><button id="login" class="botao" role="button">Login</button></a>
+            <a href="cadastro.html"><button id="cadastro" class="btn btn-dark" role="button">Cadastro</button></a>
+            <a href="login.html"><button id="login" class="btn btn-dark" role="button">Login</button></a>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
