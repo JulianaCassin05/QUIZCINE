@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    
+    <style>
+        .custom-header {
+            background-color: #3fe0d0;
+            color: #fff;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            border-top: none;
+        }
+
+        .custom-text {
+            color: #354d4f;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .custom-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+        }
+
+        .custom-list-item {
+            font-size: 25px;
+        }
+
+        .custom-link {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .custom-tituloPagina {
+            background-color: #7effd4;
+            color: #126e51;
+            text-align: center;
+            padding: 40px;
+            margin-top: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100vh;
+        }
+
+        .custom-legenda {
+            background-color: #5fefd3;
+            color: #078e82;
+            font-size: 18px;
+            padding: 35px;
+            font-weight: bold;
+            margin-top: 80px;
+            margin-bottom: 65px;
+        }
+
+        .custom-btn {
+            background-color: #5e9ea0;
+            border: none;
+            border-radius: 6px;
+            color: #fff;
+            cursor: pointer;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1rem;
+            height: 44px;
+            margin: 30px;
+            padding: 0 25px;
+            text-align: center;
+            transition: all 0.2s;
+        }
+    </style>
+    
+    <title>QuizCine</title>
+</head>
+<body>
+    <header class="custom-header">
+        <p class="custom-text">QuizCine</p>
+        <nav>
+            <ul class="custom-list">
+                <!-- <li><a class="custom-link" href="arquivos/menu.html">Menu</a></li> -->
+                <ul class="list-unstyled d-flex">
+                    <li class="custom-list-item"><a class="custom-link" href="contato.html">Contato</a></li>
+                    <li class="custom-list-item"><a class="custom-link" href="criadores.html">Criadores</a></li>
+                    <li class="custom-list-item"><a class="custom-link" href="sobre.html">Sobre</a></li>
+                </ul>                
+        </nav>
+    </header>
+    <div class="custom-tituloPagina">
+        <div class="titulo">
+            <h1>Faça o nosso Quiz!</h1>
+        </div>
+        <div class="custom-legenda">
+            <p>Deixe suas emoções guiarem sua escolha de filme hoje! Nosso quiz diário te conecta com o filme perfeito para seu estado de espírito. 🎥😊😢 #EscolhaEmocional</p>
+        </div>
+        <div class="botoes">
+            <a href="cadastro.html"><button id="cadastro" class="custom-btn" role="button">Cadastro</button></a>
+            <a href="login.html"><button id="login" class="custom-btn" role="button">Login</button></a>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
