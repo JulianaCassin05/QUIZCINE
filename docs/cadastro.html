@@ -5,43 +5,100 @@
     <meta name="description" content="Pagina de cadastro">
     <meta name="keywords" content="cadastro, formulario, registro">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            color: #343a40;
+            text-align: center;
+        }
+        .form {
+            background-color: white; 
+            border: 1px solid #343a40; 
+            border-radius: 5px;
+            padding: 20px;
+        }
+        label {
+            color: #343a40; 
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        input[type="tel"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #343a40; 
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #343a40; 
+            color: white; 
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #212529; 
+        }
+    </style>
 </head>
 <body>
-    <h1>Cadastro</h1>
-    <div class="entrar">
-        <div class="form">
-          <form action="https://webhook.site/7460537e-2798-4828-9cda-3e24e9300ab1" method="post">
-
-            <label for="pNome">Nome</label>
-            <input type="text" id="pNome" name="pNome" placeholder="Nome"/><br><br>
-
-            <label for="sNome">Sobrenome</label>
-            <input type="text" id="sNome" name="sNome" placeholder="Sobrenome"/><br><br>
-
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Email"/><br><br>
-
-            <label for="senha">Senha</label>
-            <input type="password" id="senha" name="senha" placeholder="Senha"/><br><br>
-
-            <label for="confsenha">Confirmar senha</label>
-            <input type="password" id="confsenha" name="confsenha" placeholder="Repitir senha"/><br><br>
-
-            <label for="nasc">Data de nascimento:</label>
-            <input type="date" id="nasc" name="nasc"><br><br>
-
-            <label for="cell">Celular:</label>
-            <input type="tel" id="cell" name="cell"><br><br>
-
-            <label for="opcoes">Como nos conheceu:</label>
-            <select id="opcoes" name="nosConheceu">
-                <option value="Faculdade" id="opc1">Faculdade</option>
-                <option value="Internet" id="opc2">Internet</option>
-            </select><br><br>
-            <input type="submit" value="Cadastrar">
-          </form>
-          <p>Ja tem uma conta? <a href="login.html" target="_blank">Faça login</a></p>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <div class="entrar">
+            <div class="form">
+                <form action="https://webhook.site/7460537e-2798-4828-9cda-3e24e9300ab1" method="post">
+                    <div class="form-group">
+                        <label for="pNome">Nome</label>
+                        <input type="text" class="form-control" id="pNome" name="pNome" placeholder="Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="sNome">Sobrenome</label>
+                        <input type="text" class="form-control" id="sNome" name="sNome" placeholder="Sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="confsenha">Confirmar senha</label>
+                        <input type="password" class="form-control" id="confsenha" name="confsenha" placeholder="Repetir senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="nasc">Data de nascimento:</label>
+                        <input type="date" class="form-control" id="nasc" name="nasc">
+                    </div>
+                    <div class="form-group">
+                        <label for="cell">Celular:</label>
+                        <input type="tel" class="form-control" id="cell" name="cell">
+                    </div>
+                    <div class="form-group">
+                        <label for="opcoes">Como nos conheceu:</label>
+                        <select class="form-control" id="opcoes" name="nosConheceu">
+                            <option value="Faculdade" id="opc1">Faculdade</option>
+                            <option value="Internet" id="opc2">Internet</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Cadastrar</button>
+                </form>
+                <p>Já tem uma conta? <a href="login.html" target="_blank">Faça login</a></p>
+            </div>
         </div>
-      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
