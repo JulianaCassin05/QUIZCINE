@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa; 
+    color: #343a40; 
+    padding: 20px;
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+}
+
+p {
+    color: #343a40; 
+}
+.navbar {
+    background-color: #343a40;
+}

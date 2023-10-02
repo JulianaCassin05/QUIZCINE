@@ -1,0 +1,53 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.container {
+    margin-top: 50px;
+}
+h1 {
+    color: #343a40;
+    text-align: center;
+}
+.form {
+    background-color: white; 
+    border: 1px solid #343a40; 
+    border-radius: 5px;
+    padding: 20px;
+}
+label {
+    color: #343a40; 
+    font-weight: bold;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #343a40; 
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #343a40; 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #212529; 
+}
+
+.form-check-input:checked {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #343a40;
+}

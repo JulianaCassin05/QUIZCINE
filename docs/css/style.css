@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #343a40;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+.tituloPagina {
+    text-align: center;
+    margin-top: 50px;
+}
+.titulo h1 {
+    color: #343a40;
+}
+.legenda p {
+    color: #343a40;
+}
+.botoes .botao {
+    display: inline;
+    background-color: #343a40;
+    color: white;
+    margin: 10px;
+}

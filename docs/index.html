@@ -4,38 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <title>QuizCine</title>
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .navbar {
-            background-color: #343a40;
-        }
-        .navbar-dark .navbar-nav .nav-link {
-            color: white !important;
-        }
-        .tituloPagina {
-            text-align: center;
-            margin-top: 50px;
-        }
-        .titulo h1 {
-            color: #343a40;
-        }
-        .legenda p {
-            color: #343a40;
-        }
-        .botoes .botao {
-            background-color: #343a40;
-            color: white;
-            margin: 10px;
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand fs-1" href="#">QuizCine</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -61,11 +36,17 @@
             <p>Deixe suas emoções guiarem sua escolha de filme hoje! Nosso quiz diário te conecta com o filme perfeito para seu estado de espírito. 🎥😊😢 #EscolhaEmocional</p>
         </div>
         <div class="botoes">
-            <a href="cadastro.html"><button id="cadastro" class="btn btn-dark" role="button">Cadastro</button></a>
-            <a href="login.html"><button id="login" class="btn btn-dark" role="button">Login</button></a>
-        </div>
+            <form action="cadastro.html" class="d-inline">
+                <button class="btn btn-dark">Cadastro</button>
+            </form>
+            <form action="login.html" class="d-inline">
+                <button class="btn btn-dark">Login</button>
+            </form>
+        </div>        
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
